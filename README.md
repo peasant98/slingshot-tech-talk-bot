@@ -1,7 +1,16 @@
-# slingshot-tech-talk-bot
+# Slingshot Tech Talk Discord Bot
 Tech Talk Discord Bot for Slingshot.
+
+
+## Requirements
+
+Your Python version should be `3.6` or higher.
 
 ## Installation
 
-1. Install a bunch of packages
-2. `python3 main.py`
+```sh
+pip install requirements.txt
+
+python main.py
+
+```
