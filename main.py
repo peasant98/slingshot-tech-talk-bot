@@ -32,7 +32,9 @@ if __name__ == '__main__':
             if guild.name == 'SLINGSHOT':
                 break
         for channel in guild.channels:
-            if channel.name == 'mentors':
+            print(channel.name)
+            if channel.name[:-1] == 'tech-talk':
+                print("here")
                 channel_id = channel.id
         print(
             f'{client.user} is connected to the following guild:\n'
